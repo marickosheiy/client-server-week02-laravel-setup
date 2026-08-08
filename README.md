@@ -1,63 +1,327 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Client-Server Week 02 - Laravel Setup
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Student Information
 
-## About Laravel
+**Name:** Maricko Sheiy L. Villacorta  
+**Student Number:** 0124-1151  
+**Course:** BS Information Technology  
+**Section:** BSIT 3A  
+**Subject:** Client-Server Technologies  
+**Date:** August 7, 2026  
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+---
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+# Laravel Development Environment Setup
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+This repository contains my Laravel Development Environment Setup activity for the Client-Server Technologies subject. The activity includes the verification of the required development tools, creation and configuration of a Laravel project, database migration, running the Laravel development server, customization of the homepage using Blade, and Git version control.
 
-## Learning Laravel
+---
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework. You can also check out [Laravel Learn](https://laravel.com/learn), where you will be guided through building a modern Laravel application.
+# Development Environment
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+| Software | Version |
+|---|---|
+| PHP | See Screenshot 1 |
+| Composer | See Screenshot 2 |
+| Laravel | Laravel Framework 12 |
+| Git | Git 2.55.0 |
+| MySQL/MariaDB | MariaDB 10.4.32 |
+| Visual Studio Code | See Screenshot 6 |
 
-## Laravel Sponsors
+---
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+# Installation Steps
 
-### Premium Partners
+## Step 1 — Verify PHP Installation
 
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
+PHP was verified using PowerShell to confirm that PHP is installed and available through the command line.
 
-## Contributing
+Command:
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+```powershell
+php -v
+```
 
-## Code of Conduct
+### Screenshot 1 — PHP Version
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+![PHP Version](screenshots/01-php.png)
 
-## Security Vulnerabilities
+---
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## Step 2 — Verify Composer Installation
 
-## License
+Composer was verified to ensure that PHP dependencies and Laravel packages can be managed.
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-Project setup complete
-Laravel 12 installed successfully
-SQLite database configured
-GitHub repository connected
+Command:
+
+```powershell
+composer --version
+```
+
+### Screenshot 2 — Composer Version
+
+![Composer Version](screenshots/02-composer.png)
+
+---
+
+## Step 3 — Verify Git Installation
+
+Git was verified to confirm that version control is available for the Laravel project.
+
+Command:
+
+```powershell
+git --version
+```
+
+### Screenshot 3 — Git Version
+
+![Git Version](screenshots/03-git.png)
+
+---
+
+## Step 4 — Verify MySQL/MariaDB Installation
+
+The MySQL/MariaDB installation was verified using the MySQL executable included with XAMPP.
+
+Command:
+
+```powershell
+C:\xampp\mysql\bin\mysql.exe --version
+```
+
+### Screenshot 4 — MySQL/MariaDB Version
+
+![MySQL Version](screenshots/04-mysql.png)
+
+---
+
+## Step 5 — Verify Laravel Installation
+
+The Laravel Framework version was verified from inside the Laravel project directory.
+
+Command:
+
+```powershell
+php artisan --version
+```
+
+The project uses Laravel Framework 12.
+
+### Screenshot 5 — Laravel Version
+
+![Laravel Version](screenshots/05-laravel.png)
+
+---
+
+## Step 6 — Verify Visual Studio Code
+
+Visual Studio Code was used as the primary code editor for creating and modifying the Laravel project.
+
+The Visual Studio Code version was checked through the application's About information.
+
+### Screenshot 6 — Visual Studio Code
+
+![Visual Studio Code](screenshots/06-vscode.png)
+
+---
+
+## Step 7 — Create the Laravel Project
+
+The Laravel project was created using Composer.
+
+Command:
+
+```powershell
+composer create-project laravel/laravel hello-laravel
+```
+
+The project was created with the name `hello-laravel` and was opened in Visual Studio Code for development.
+
+---
+
+## Step 8 — Configure the Laravel Application
+
+The Laravel application key was generated using Artisan.
+
+Command:
+
+```powershell
+php artisan key:generate
+```
+
+This generates the application encryption key required by Laravel.
+
+---
+
+## Step 9 — Configure and Initialize the Database
+
+The Laravel project uses SQLite as its database.
+
+The database migrations were executed using:
+
+```powershell
+php artisan migrate
+```
+
+The migration command successfully checked the database. When there are no pending migrations, Laravel displays:
+
+```text
+INFO  Nothing to migrate.
+```
+
+---
+
+## Step 10 — Run the Laravel Development Server
+
+The Laravel development server was started using Artisan.
+
+Command:
+
+```powershell
+php artisan serve
+```
+
+The application can then be accessed through:
+
+```text
+http://127.0.0.1:8000
+```
+
+### Screenshot 7 — Laravel Development Server
+
+![Laravel Server](screenshots/07-server.png)
+
+---
+
+## Step 11 — Customize the Laravel Homepage Using Blade
+
+The default Laravel homepage was customized by editing the following Blade view:
+
+```text
+resources/views/welcome.blade.php
+```
+
+The homepage was modified to display the student's information, including the student's name, student number, course, section, subject, and date.
+
+### Screenshot 8 — Customized Laravel Homepage
+
+![Customized Laravel Homepage](screenshots/08-homepage.png)
+
+---
+
+## Step 12 — Track the Project Using Git
+
+Git was used to track the development of the Laravel project.
+
+### Initialize the Git Repository
+
+```powershell
+git init
+```
+
+### Rename the Branch to Main
+
+```powershell
+git branch -M main
+```
+
+### Add the GitHub Remote Repository
+
+```powershell
+git remote add origin https://github.com/marickosheiy/client-server-week02-laravel-setup.git
+```
+
+### Stage the Project Files
+
+```powershell
+git add .
+```
+
+### Commit the Project
+
+```powershell
+git commit -m "Initial Laravel setup"
+```
+
+### Push the Project to GitHub
+
+```powershell
+git push -u origin main
+```
+
+The Laravel project was successfully connected to GitHub and pushed to the `main` branch.
+
+---
+
+# Git Commit History
+
+The Git repository contains commits documenting the development and completion of the Laravel project.
+
+To view the commit history:
+
+```powershell
+git log --oneline
+```
+
+---
+
+# Project Structure
+
+The Laravel project follows the standard Laravel directory structure.
+
+```text
+hello-laravel/
+├── app/
+├── bootstrap/
+├── config/
+├── database/
+├── public/
+├── resources/
+│   └── views/
+│       └── welcome.blade.php
+├── routes/
+├── storage/
+├── tests/
+├── screenshots/
+├── .env
+├── .env.example
+├── artisan
+├── composer.json
+├── composer.lock
+├── package.json
+└── README.md
+```
+
+---
+
+# Screenshots
+
+The following screenshots provide evidence of the development environment and completed Laravel application:
+
+1. PHP Version
+2. Composer Version
+3. Git Version
+4. MySQL/MariaDB Version
+5. Laravel Version
+6. Visual Studio Code
+7. Laravel Development Server
+8. Customized Laravel Homepage
+
+---
+
+# Reflection
+
+This activity helped me understand the process of setting up a Laravel development environment and the different tools required for client-server web development. I learned how PHP, Composer, Laravel, Git, MySQL/MariaDB, and Visual Studio Code work together when developing a Laravel application.
+
+I also learned how to create and configure a Laravel project, perform database migrations, run the Laravel development server, and customize a webpage using a Blade view.
+
+Lastly, I gained experience using Git and GitHub to track and manage my project files and development history.
+
+---
+
+# GitHub Repository
+
+The completed Laravel project is available on GitHub:
+
+https://github.com/marickosheiy/client-server-week02-laravel-setup
