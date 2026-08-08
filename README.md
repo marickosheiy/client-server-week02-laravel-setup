@@ -42,7 +42,7 @@ Command:
 php -v
 ```
 
-### Screenshot 1 — PHP Version
+
 
 ![PHP Version](screenshots/php.png)
 ---
@@ -57,13 +57,13 @@ Command:
 composer --version
 ```
 
-### Screenshot 2 — Composer Version
+
 
 ![Composer Version](screenshots/composer.png)
 
 ---
 
-## Step 3 — Verify Git Installation
+
 
 Git was verified to confirm that version control is available for the Laravel project.
 
@@ -73,13 +73,13 @@ Command:
 git --version
 ```
 
-### Screenshot 3 — Git Version
+
 
 ![Git Version](screenshots/git.png)
 
 ---
 
-## Step 4 — Verify MySQL/MariaDB Installation
+
 
 The MySQL/MariaDB installation was verified using the MySQL executable included with XAMPP.
 
@@ -89,7 +89,7 @@ Command:
 C:\xampp\mysql\bin\mysql.exe --version
 ```
 
-### Screenshot 4 — MySQL/MariaDB Version
+
 
 ![MySQL Version](screenshots/sql.png)
 
@@ -107,7 +107,7 @@ php artisan --version
 
 The project uses Laravel Framework 12.
 
-### Screenshot 5 — Laravel Version
+
 
 ![Laravel Version](screenshots/artisan.png)
 
@@ -119,7 +119,7 @@ Visual Studio Code was used as the primary code editor for creating and modifyin
 
 The Visual Studio Code version was checked through the application's About information.
 
-### Screenshot 6 — Visual Studio Code
+
 
 ![Visual Studio Code](screenshots/vsc.png)
 
@@ -187,9 +187,9 @@ The application can then be accessed through:
 http://127.0.0.1:8000
 ```
 
-### Screenshot 7 — Laravel Development Server
 
-![Laravel Server](screenshots/artisan serve.png)
+
+![Laravel Server](screenshots/artisan-serve.png)
 
 ---
 
@@ -203,7 +203,7 @@ resources/views/welcome.blade.php
 
 The homepage was modified to display the student's information, including the student's name, student number, course, section, subject, and date.
 
-### Screenshot 8 — Customized Laravel Homepage
+
 
 ![Customized Laravel Homepage](screenshots/homepage.png)
 
