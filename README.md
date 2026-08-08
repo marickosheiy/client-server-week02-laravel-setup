@@ -21,12 +21,12 @@ This repository contains my Laravel Development Environment Setup activity for t
 
 | Software | Version |
 |---|---|
-| PHP | See Screenshot 1 |
-| Composer | See Screenshot 2 |
+| PHP |PHP 8.2.12 |
+| Composer | Composer 2.10.2 |
 | Laravel | Laravel Framework 12 |
 | Git | Git 2.55.0 |
 | MySQL/MariaDB | MariaDB 10.4.32 |
-| Visual Studio Code | See Screenshot 6 |
+| Visual Studio Code | 1.132.0 |
 
 ---
 
@@ -44,7 +44,7 @@ php -v
 
 ### Screenshot 1 — PHP Version
 
-![PHP Version](screenshots/01-php.png)
+![PHP Version](hello-laravel/screenshots/php.png)
 
 ---
 
@@ -60,7 +60,7 @@ composer --version
 
 ### Screenshot 2 — Composer Version
 
-![Composer Version](screenshots/02-composer.png)
+![Composer Version](hello-laravel/screenshots/composer.png)
 
 ---
 
@@ -76,7 +76,7 @@ git --version
 
 ### Screenshot 3 — Git Version
 
-![Git Version](screenshots/03-git.png)
+![Git Version](hello-laravel/screenshots/git.png)
 
 ---
 
@@ -92,7 +92,7 @@ C:\xampp\mysql\bin\mysql.exe --version
 
 ### Screenshot 4 — MySQL/MariaDB Version
 
-![MySQL Version](screenshots/04-mysql.png)
+![MySQL Version](hello-laravel/screenshots/sql.png)
 
 ---
 
@@ -110,7 +110,7 @@ The project uses Laravel Framework 12.
 
 ### Screenshot 5 — Laravel Version
 
-![Laravel Version](screenshots/05-laravel.png)
+![Laravel Version](hello-laravel/screenshots/artisan.png)
 
 ---
 
@@ -122,7 +122,7 @@ The Visual Studio Code version was checked through the application's About infor
 
 ### Screenshot 6 — Visual Studio Code
 
-![Visual Studio Code](screenshots/06-vscode.png)
+![Visual Studio Code](hello-laravel/screenshots/vsc.png)
 
 ---
 
@@ -190,7 +190,7 @@ http://127.0.0.1:8000
 
 ### Screenshot 7 — Laravel Development Server
 
-![Laravel Server](screenshots/07-server.png)
+![Laravel Server](hello-laravel/screenshots/artisan serve.png)
 
 ---
 
@@ -206,7 +206,7 @@ The homepage was modified to display the student's information, including the st
 
 ### Screenshot 8 — Customized Laravel Homepage
 
-![Customized Laravel Homepage](screenshots/08-homepage.png)
+![Customized Laravel Homepage](hello-laravel/screenshots/homepage.png)
 
 ---
 
