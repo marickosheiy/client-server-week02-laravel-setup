@@ -75,8 +75,7 @@ git --version
 
 
 
-![Git Version](screenshots/git.png)
-
+![git Version](screenshots/git.png)
 ---
 
 
@@ -299,13 +298,21 @@ hello-laravel/
 The following screenshots provide evidence of the development environment and completed Laravel application:
 
 1. PHP Version
+![PHP Version](screenshots/php.png)
 2. Composer Version
+![Composer Version](screenshots/composer.png)
 3. Git Version
+![Git Version](screenshots/git.png)
 4. MySQL/MariaDB Version
+![MySQL Version](screenshots/sql.png)
 5. Laravel Version
+![Laravel Version](screenshots/artisan.png)
 6. Visual Studio Code
+![Visual Studio Code](screenshots/vsc.png)
 7. Laravel Development Server
+![Laravel Server](screenshots/artisan-serve.png)
 8. Customized Laravel Homepage
+![Customized Laravel Homepage](screenshots/homepage.png)
 
 ---
 
@@ -318,9 +325,35 @@ I also learned how to create and configure a Laravel project, perform database m
 Lastly, I gained experience using Git and GitHub to track and manage my project files and development history.
 
 ---
+## References
+Laravel. (n.d.). Laravel documentation. https://laravel.com/docs/13.x
 
-# GitHub Repository
+Composer. (n.d.). Composer documentation. https://getcomposer.org/doc/
 
-The completed Laravel project is available on GitHub:
+Git. (n.d.). Git documentation. https://git-scm.com/docs/git
 
-https://github.com/marickosheiy/client-server-week02-laravel-setup
+PHP Documentation Group. (n.d.). PHP documentation. https://www.php.net/manual/en/
+
+Visual Studio Code. (n.d.). Visual Studio Code documentation. https://code.visualstudio.com/docs/getstarted/overview
+
+
+##  Repository
+
+The completed Laravel project is hosted on GitHub:
+
+(https://github.com/marickosheiy/client-server-week02-laravel-setup)
+
+The repository contains the Laravel project source code, documentation, installation screenshots, customized Blade homepage, and Git commit history.
+
+### Final Verification
+
+The following were successfully verified:
+
+- Laravel project runs successfully using `php artisan serve`.
+- Customized homepage displays correctly at `http://127.0.0.1:8000`.
+- PHP, Composer, Laravel, Git, MySQL/MariaDB, and Visual Studio Code versions were verified.
+- Database migration was successfully executed using `php artisan migrate`.
+- All required screenshots are included in the `screenshots/` directory.
+- The customized homepage was created using the Blade view `resources/views/welcome.blade.php`.
+- Project documentation is complete in `README.md`.
+- Git working tree is clean and the `main` branch is synchronized with the GitHub repository.
