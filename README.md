@@ -44,8 +44,7 @@ php -v
 
 ### Screenshot 1 — PHP Version
 
-![PHP Version](hello-laravel/screenshots/php.png)
-
+![PHP Version](screenshots/php.png)
 ---
 
 ## Step 2 — Verify Composer Installation
@@ -60,7 +59,7 @@ composer --version
 
 ### Screenshot 2 — Composer Version
 
-![Composer Version](hello-laravel/screenshots/composer.png)
+![Composer Version](screenshots/composer.png)
 
 ---
 
@@ -76,7 +75,7 @@ git --version
 
 ### Screenshot 3 — Git Version
 
-![Git Version](hello-laravel/screenshots/git.png)
+![Git Version](screenshots/git.png)
 
 ---
 
@@ -92,7 +91,7 @@ C:\xampp\mysql\bin\mysql.exe --version
 
 ### Screenshot 4 — MySQL/MariaDB Version
 
-![MySQL Version](hello-laravel/screenshots/sql.png)
+![MySQL Version](screenshots/sql.png)
 
 ---
 
@@ -110,7 +109,7 @@ The project uses Laravel Framework 12.
 
 ### Screenshot 5 — Laravel Version
 
-![Laravel Version](hello-laravel/screenshots/artisan.png)
+![Laravel Version](screenshots/artisan.png)
 
 ---
 
@@ -122,7 +121,7 @@ The Visual Studio Code version was checked through the application's About infor
 
 ### Screenshot 6 — Visual Studio Code
 
-![Visual Studio Code](hello-laravel/screenshots/vsc.png)
+![Visual Studio Code](screenshots/vsc.png)
 
 ---
 
@@ -190,7 +189,7 @@ http://127.0.0.1:8000
 
 ### Screenshot 7 — Laravel Development Server
 
-![Laravel Server](hello-laravel/screenshots/artisan serve.png)
+![Laravel Server](screenshots/artisan serve.png)
 
 ---
 
@@ -206,7 +205,7 @@ The homepage was modified to display the student's information, including the st
 
 ### Screenshot 8 — Customized Laravel Homepage
 
-![Customized Laravel Homepage](hello-laravel/screenshots/homepage.png)
+![Customized Laravel Homepage](screenshots/homepage.png)
 
 ---
 
