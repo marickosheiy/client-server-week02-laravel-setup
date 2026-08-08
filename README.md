@@ -293,26 +293,57 @@ hello-laravel/
 
 ---
 
-# Screenshots
+## Development Environment Screenshots
 
-The following screenshots provide evidence of the development environment and completed Laravel application:
+The following screenshots provide evidence of the development environment and completed Laravel application.
 
-1. PHP Version
-![PHP Version](screenshots/php.png)
-2. Composer Version
-![Composer Version](screenshots/composer.png)
-3. Git Version
-![Git Version](screenshots/git.png)
-4. MySQL/MariaDB Version
-![MySQL Version](screenshots/sql.png)
-5. Laravel Version
-![Laravel Version](screenshots/artisan.png)
-6. Visual Studio Code
-![Visual Studio Code](screenshots/vsc.png)
-7. Laravel Development Server
-![Laravel Server](screenshots/artisan-serve.png)
-8. Customized Laravel Homepage
-![Customized Laravel Homepage](screenshots/homepage.png)
+### 1. PHP Version
+
+<p align="center">
+  <img src="screenshots/php.png" width="700">
+</p>
+
+### 2. Composer Version
+
+<p align="center">
+  <img src="screenshots/composer.png" width="700">
+</p>
+
+### 3. Git Version
+
+<p align="center">
+  <img src="screenshots/git.png" width="700">
+</p>
+
+### 4. MySQL/MariaDB Version
+
+<p align="center">
+  <img src="screenshots/sql.png" width="700">
+</p>
+
+### 5. Laravel Version
+
+<p align="center">
+  <img src="screenshots/artisan.png" width="700">
+</p>
+
+### 6. Visual Studio Code
+
+<p align="center">
+  <img src="screenshots/vsc.png" width="500">
+</p>
+
+### 7. Laravel Development Server
+
+<p align="center">
+  <img src="screenshots/artisan-serve.png" width="700">
+</p>
+
+### 8. Customized Laravel Homepage
+
+<p align="center">
+  <img src="screenshots/homepage.png" width="700">
+</p>
 
 ---
 
